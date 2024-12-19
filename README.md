@@ -10,8 +10,15 @@ Este es un proyecto basico para la prueba de node del equipo de kase
 - Verificar que se encuentra en la rama **main** 
 - Se debe renombrar el archivo **.env.example** a **.env**
 - Ejecutar en la raiz del proyecto el comando **docker-compose up --build -d**
-- Verificar el nombre del contenedor que corre la aplicación web el resultado esperado es : **prueba-node-web-1** de no ser asi ,copiar el nombre para utulizarlo en el siguiente paso
+- Verificar el nombre del contenedor  con el comando **docker ps**  el resultado esperado es : **prueba-node-web-1** de no ser asi ,copiar el nombre para utulizarlo en el siguiente paso
 - Ejecutar las migraciones y seeds **docker exec -it prueba-node-web-1 pnpm run migrate &&  docker exec -it prueba-node-web-1 pnpm run seeds**
+
+## Dependencia
+Para loguararse en el aplicativo de usa el email **prueba@prueba.com** y la contraseña **123456**
+
+- este proyecto depende de la correcta ejecución de su frontend en react el cual se encuentra en:
+   ```bash
+   git clone https://github.com/prueba-kase/prueba-react.git
 
 
 
