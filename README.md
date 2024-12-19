@@ -7,10 +7,11 @@ Este es un proyecto basico para la prueba de node del equipo de kase
 - Clona el repositorio:
    ```bash
    git clone https://github.com/prueba-kase/prueba-node.git
-- Verificar que se encuentra en la rama **main** 
+- Verificar que se encuentra en la rama **main**
 - Se debe renombrar el archivo **.env.example** a **.env**
+- Verificar que se este ejecutando **docker** en el equipo
 - Ejecutar en la raiz del proyecto el comando **docker-compose up --build -d**
-- Verificar el nombre del contenedor  con el comando **docker ps**,  el resultado esperado es : **prueba-node-web-1** de no ser asi ,copiar el nombre del contenedor para utulizarlo en el siguiente paso
+- Verificar el nombre del contenedor  con el comando **docker ps**,  el resultado esperado es : **prueba-node-web-1**. de no ser asi ,copiar el nombre del contenedor para utulizarlo en el siguiente paso
 - Ejecutar las migraciones y seeds **docker exec -it prueba-node-web-1 pnpm run migrate &&  docker exec -it prueba-node-web-1 pnpm run seeds**
 
 ## Dependencia
