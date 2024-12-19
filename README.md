@@ -15,7 +15,7 @@ Este es un proyecto basico para la prueba de node del equipo de kase
 - Ejecutar las migraciones y seeds **docker exec -it prueba-node-web-1 pnpm run migrate &&  docker exec -it prueba-node-web-1 pnpm run seeds**
 
 ## Dependencia
-Para loguararse en el aplicativo de usa el email **prueba@prueba.com** y la contraseña **123456**
+Para loguararse en el aplicativo se usa el email **prueba@prueba.com** y la contraseña **123456**
 
 - este proyecto depende de la correcta ejecución de su frontend en react el cual se encuentra en:
    ```bash
